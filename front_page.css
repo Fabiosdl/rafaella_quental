@@ -1,0 +1,83 @@
+body {
+    font-family: "Abadi", sans-serif;
+    margin: 50px 50px 0 50px;
+    background-color: #f0eee7;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+  }
+.ribbon {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height:40px;
+    width: 100%;
+    background-color: rgb(251, 212, 218);
+    padding: 10px;
+    z-index: 9999; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }  
+  .ribbon img {
+    height: 50px;
+    margin-left: 20px;
+  }  
+  .ribbon .content {
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+  }  
+  .ribbon a {
+    margin-left: 50px;
+    color: inherit; 
+    text-decoration: none;
+  }
+
+.profile{
+    display:inline-block;
+    vertical-align: middle;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+.profile img{
+    height: 300px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 200px;
+}
+.profile span{
+    color:rgb(48, 111, 115);
+    display: inline-block;
+    vertical-align: middle;
+}
+.profile span h1{
+    font-size: 3rem;
+}
+.profile span h2{
+    font-size:2rem;
+}
+.project1{
+    margin-top: 50px;
+    width: 100%;
+    overflow: hidden;
+    float: left;
+}
+.pj1-img{
+    height: 250px;
+    float:left;
+    margin-right: 100px;
+}
+.project2{
+    margin-top: 50px;
+    width: 100%;
+    overflow: hidden;
+    float: left;
+}
+.pj2-img{
+    height: 250px;
+    float:left;
+    margin-right: 100px;
+}
