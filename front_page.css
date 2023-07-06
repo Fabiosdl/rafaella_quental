@@ -74,6 +74,7 @@ body {
 .ribbon .hidden_content{
   display: none;
 }
+/*----------------end of ribbon--------------*/
 .profile{
     vertical-align: middle;
     margin-top: 100px;
@@ -100,6 +101,7 @@ body {
 .profile span h2{
     font-size:2rem;
 }
+/*---------------------end of proofile----------*/
 .project{
     margin-top: 50px;
     width: 100%;
@@ -131,11 +133,18 @@ body {
   .profile .logo {
     width: 200px;
     margin-top: 50px;
-    /* display: block; */
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .profile span {
-    text-align: justify;
+    text-align: center;
+    width: 100%;
+    display: block;    
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .profile span h1 {
