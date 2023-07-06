@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content .sub-dropdown-content {
+  display: none;
+}
+
+.dropdown-content:hover .sub-dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+  
+<div class="dropdown">
+  <button class="dropbtn">Main Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Option 1</a>
+    <a href="#">Option 2</a>
+    <div class="sub-dropdown-content">
+      <a href="#">Sub-option 1</a>
+      <a href="#">Sub-option 2</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
