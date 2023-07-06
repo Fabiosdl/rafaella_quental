@@ -6,6 +6,10 @@ body {
     flex-direction: column;
     min-height: 95vh;
   }
+  .main {
+    flex: 1;
+  }
+
 .ribbon {
     position: fixed;
     top: 0;
@@ -61,23 +65,28 @@ body {
 .dropdown-content a:hover {
   color:rgb(48, 111, 115);
 }
+#linkedin .lkdin{
+    scale: 50%;
+    margin-left: -10px;
+}
 .profile{
-    display:inline-block;
     vertical-align: middle;
     margin-top: 100px;
     margin-left: 100px;
     margin-bottom: 100px;
+    float: right;
 }
 .profile img{
-    height: 300px;
-    border-radius: 50%;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 200px;
+  width: 35%;
+  height: auto;
+  border-radius: 50%;
+  float: right;
+  vertical-align: middle;
+  margin-right: 100px;
 }
 .profile span{
     color:rgb(48, 111, 115);
-    display: inline-block;
+    float: left;
     vertical-align: middle;
 }
 .profile span h1{
@@ -86,25 +95,56 @@ body {
 .profile span h2{
     font-size:2rem;
 }
-.project1{
+.project{
     margin-top: 50px;
     width: 100%;
     overflow: hidden;
     float: left;
 }
-.pj1-img{
+.pj1-img, .pj2-img {
     height: 250px;
     float:left;
     margin-right: 100px;
+    margin-bottom: 100px;
 }
-.project2{
+
+@media (max-width: 680px) {
+  .main {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .profile .logo {
+    width: 200px;
     margin-top: 50px;
+    /* display: block; */
+  }
+  
+  .profile span {
+    text-align: justify;
+  }
+  
+  .profile span h1 {
+    font-size: 2rem;
+  }
+  
+  .profile span h2 {
+    font-size: 1.33rem;
+  }
+  
+  .project {
     width: 100%;
-    overflow: hidden;
-    float: left;
-}
-.pj2-img{
-    height: 250px;
-    float:left;
-    margin-right: 100px;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  
+  .project .pj1-img,
+  .project .pj2-img {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
 }
