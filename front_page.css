@@ -132,15 +132,15 @@ body {
   }
   
   .profile{
-    display: block;
+    display: inline-block;
     align-items: center;
     text-align: center;    
     margin-left: auto;
     margin-right: auto;
   }  
   .profile .logo {
-    width: 25vh;
-    margin-top: 50px;
+    scale: 150%;
+    margin-top: 70px;
   }  
   .profile span {
     width: 100%;
