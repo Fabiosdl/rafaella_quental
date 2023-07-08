@@ -115,6 +115,7 @@ body {
     margin-bottom: 100px;
 }
 
+/*--------------- cellphone screen --------------*/
 @media (max-width: 680px) {
   .main {
     justify-content: center;
@@ -124,7 +125,7 @@ body {
 
   .ribbon .hidden_content{
     display: block;   
-    margin-right: 50px;
+    margin-right: 400px;
   }
   .hidden_content .three_lines_opt{
     scale: 75%;
@@ -173,58 +174,56 @@ body {
     display: none;
   }
 
-  .hidden_content {
-    display: none;
-    position: relative;
-  }
 
-  .menu-icon .dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    background-color: rgb(251, 212, 218);
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-  }
+/*--------- drop down menu- icon --------------*/
 
-  .menu-icon:hover .dropdown-content {
-    display: block;
-  }
 
-  .menu-icon .dropdown-content a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: #000;
-  }
+.menu-icon .dropdown-content {
+  display: none;
+  position:absolute;
+  min-width: 160px;
+  background-color:  rgb(251, 212, 218);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
 
-  .menu-icon .dropdown-content a:hover {
-    color: rgb(48, 111, 115);
-  }
+.menu-icon:hover .dropdown-content {
+  display: block;
+}
 
-  .menu-icon .dropdown-content .sub-dropdown-content {
-    display: none;
-    position: absolute;
-    left: 100%;
-    top: 0;
-    min-width: 160px;
-  }
+.menu-icon .dropdown-content a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+}
 
-  .menu-icon .menu-icon .dropdown-content:hover .sub-dropdown-content {
-    display: block;
-    }
-    .menu-icon .sub-dropdown-content {
-      display: none;
-      position: absolute;
-      min-width: 160px;
-      background-color: rgb(251, 212, 218);
-      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-      z-index: 1;
-    }
-    
-    .menu-icon .dropdown-link:hover + .sub-dropdown-content,
-    .menu-icon .sub-dropdown-content:hover {
-      display: block;
-    }
+.menu-icon .dropdown-content a:hover {
+  color:rgb(48, 111, 115);
+}
 
+.proj {
+  padding: 10px;
+  cursor: pointer;
+}
+.proj:hover{
+  color:rgb(48, 111, 115);
+}
+.proj .sub-dropdown-content{
+  display: none;
+}
+ /* .proj:hover .sub-dropdown-content {
+  display: block;
+  position: absolute;
+}  */
+.proj .sub-dropdown-content a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.proj .sub-dropdown-content a:hover {
+  color:rgb(48, 111, 115);
+}
 }
