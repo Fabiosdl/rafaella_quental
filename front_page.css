@@ -177,7 +177,9 @@ body {
 
 /*--------- drop down menu- icon --------------*/
 
-
+.menu-icon:hover{
+  cursor: pointer;
+}
 .menu-icon .dropdown-content {
   display: none;
   position:absolute;
@@ -187,9 +189,10 @@ body {
   z-index: 1;
 }
 
-.menu-icon:hover .dropdown-content {
-  display: block;
+.menu-icon:hover .ofmenu{
+  display: none;
 }
+
 
 .menu-icon .dropdown-content a {
   display: block;
