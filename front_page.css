@@ -131,25 +131,23 @@ body {
     scale: 75%;
   }
   
-  .profile .logo {
-    width: 200px;
-    margin-top: 50px;
+  .profile{
     display: block;
     align-items: center;
+    text-align: center;    
     margin-left: auto;
     margin-right: auto;
-  }
-  
+  }  
+  .profile .logo {
+    width: 25vh;
+    margin-top: 50px;
+  }  
   .profile span {
-    text-align: center;
     width: 100%;
-    display: block;    
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
+
+  }  
   .profile span h1 {
-    font-size: 2rem;
+    font-size: 2rem;    
   }
   
   .profile span h2 {
@@ -189,7 +187,7 @@ body {
   z-index: 1;
 }
 
-.menu-icon:hover .ofmenu{
+.menu-icon:hover .ofMenu{
   display: none;
 }
 

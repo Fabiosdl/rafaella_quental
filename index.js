@@ -1,7 +1,9 @@
 const menuOption = document.getElementById("menu-icon");
-const dropdownContent = document.querySelector(".menu-icon .dropdown-content");
+const dropdownContent = document.querySelector(".ofMenu");
 const projectsItem = document.getElementById("projects");
 const subDropdownContent = document.querySelector(".sub-dropdown-content");
+
+
 
 menuOption.addEventListener("click", function() {
   dropdownContent.style.display = dropdownContent.style.display === "none" ? "block" : "none";
