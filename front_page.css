@@ -125,22 +125,26 @@ body {
 
   .ribbon .hidden_content{
     display: block;   
-    margin-right: 400px;
   }
   .hidden_content .three_lines_opt{
     scale: 75%;
   }
   
   .profile{
-    display: inline-block;
-    align-items: center;
-    text-align: center;    
+    width: 100%;
+    display: block;
+    text-align: center;
+    align-items: center;   
     margin-left: auto;
     margin-right: auto;
   }  
-  .profile .logo {
-    scale: 150%;
-    margin-top: 70px;
+  .profile .logo {   
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: auto;    
+    margin-top: 40px;
+    margin-bottom: -30px;
   }  
   .profile span {
     width: 100%;
@@ -175,12 +179,18 @@ body {
 
 /*--------- drop down menu- icon --------------*/
 
+.menu-icon{
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+}
 .menu-icon:hover{
   cursor: pointer;
 }
 .menu-icon .dropdown-content {
   display: none;
   position:absolute;
+  right: 0;
   min-width: 160px;
   background-color:  rgb(251, 212, 218);
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -216,7 +226,7 @@ body {
  /* .proj:hover .sub-dropdown-content {
   display: block;
   position: absolute;
-}  */
+} */
 .proj .sub-dropdown-content a {
   display: block;
   padding: 10px;
