@@ -101,7 +101,7 @@ body {
 .profile span h2{
     font-size:2rem;
 }
-/*---------------------end of proofile----------*/
+/*--------------------- project class----------*/
 .project{
     margin-top: 50px;
     width: 100%;
@@ -115,12 +115,31 @@ body {
     margin-bottom: 100px;
 }
 
+/*-------------contact class--------------*/
+.contact{
+  width: 100%;
+  text-align: center;
+}
+.contact_logos{ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact_logos #email{  
+  margin-left: 200px;
+}
+.contact_logos #linkedin2{  
+  margin-right: 200px;
+}
 /*--------------- cellphone screen --------------*/
 @media (max-width: 680px) {
   .main {
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+  .ribbon .content {
+    display: none;
   }
 
   .ribbon .hidden_content{
@@ -171,9 +190,6 @@ body {
     display: block;
     max-width: 100%;
     height: auto;
-  }
-  .ribbon .content {
-    display: none;
   }
 
 
@@ -243,4 +259,6 @@ body {
 .proj .sub-dropdown-content a:hover {
   color:rgb(48, 111, 115);
 }
+
+
 }
